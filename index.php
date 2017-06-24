@@ -53,10 +53,10 @@ if (isset($_POST['login'])) {
 // close mysql connection
 mysqli_close($conn);
 
-include 'includes/header.php';
 
-// $password = password_hash("abc123", PASSWORD_DEFAULT);
-// echo $password;
+include 'includes/header.php';
+ /* $password = password_hash("abc123", PASSWORD_DEFAULT); */
+ /* echo $password; */
 
 ?>
 
