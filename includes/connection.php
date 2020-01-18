@@ -3,7 +3,7 @@
 //TODO: convert database connection to PDO
 $server = "localhost";
 $username = "root";
-$password = "2455";
+$password = "";
 $db = "db_clientaddressbook";
 
 $conn = mysqli_connect($server, $username, $password, $db);
